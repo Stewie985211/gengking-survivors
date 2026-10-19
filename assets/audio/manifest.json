@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "scope": "boss-only",
+  "defaults": { "cooldownSeconds": 12, "globalGapSeconds": 3, "volume": 1 },
+  "shared": { "dodge": { "file": "boss-dodge.mp3", "cooldownSeconds": 10 } },
+  "loops": { "lectureStone": { "file": "lecture-stone-loop.mp3", "volume": 0.65 } },
+  "characters": {
+    "zhangxuefeng": {
+      "phase2": { "file": "zhang-phase2.mp3", "cooldownSeconds": 9999 },
+      "nearDeath": { "file": "zhang-near-death.mp3", "cooldownSeconds": 9999 }
+    },
+    "xiangchanana": {
+      "random": { "file": "nana-random.mp3", "cooldownSeconds": 26 },
+      "phase2": { "file": "nana-phase2.mp3", "cooldownSeconds": 9999 }
+    },
+    "lebang": { "barrage": { "file": "lebang-barrage.mp3", "cooldownSeconds": 12 } },
+    "kunkun": {
+      "hit": { "file": "kunkun-hit.mp3", "cooldownSeconds": 6 },
+      "barrage": { "file": "kunkun-barrage.mp3", "cooldownSeconds": 12 }
+    },
+    "laoda": {
+      "barrage": { "file": "laoda-barrage.mp3", "cooldownSeconds": 12 },
+      "phase2": { "file": "laoda-phase2.mp3", "cooldownSeconds": 9999 },
+      "death": { "file": "laoda-death.mp3", "cooldownSeconds": 9999 }
+    },
+    "xujiayin": {},
+    "mabaoguo": {},
+    "jiangjieshi": {}
+  }
+}

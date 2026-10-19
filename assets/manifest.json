@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "phase": "playable-local-v1",
+  "roster": [
+    {
+      "id": "zhangxuefeng",
+      "name": "张雪峰"
+    },
+    {
+      "id": "laoda",
+      "name": "牢大"
+    },
+    {
+      "id": "kunkun",
+      "name": "坤坤"
+    },
+    {
+      "id": "lebang",
+      "name": "乐邦"
+    },
+    {
+      "id": "xujiayin",
+      "name": "许家印"
+    },
+    {
+      "id": "mabaoguo",
+      "name": "马保国"
+    },
+    {
+      "id": "xiangchanana",
+      "name": "香茶娜娜"
+    }
+  ],
+  "assets": [
+    {
+      "id": "zhang-sunglasses",
+      "characterId": "zhangxuefeng",
+      "label": "张雪峰 · 墨镜",
+      "uploadIndex": 1,
+      "path": "assets/characters/zhangxuefeng-sunglasses.png",
+      "status": "ready",
+      "note": "用户原图，保留造型",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "zhang-heart",
+      "characterId": "zhangxuefeng",
+      "label": "张雪峰 · 红心变体",
+      "uploadIndex": 2,
+      "path": "assets/characters/zhangxuefeng-heart.png",
+      "status": "ready",
+      "note": "用户原图，汽水与冰棍变体",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "laoda-smile",
+      "characterId": "laoda",
+      "label": "牢大 · 笑脸",
+      "uploadIndex": 3,
+      "path": "assets/characters/laoda-smile-source.png",
+      "sourceRect": [
+        190,
+        0,
+        880,
+        1080
+      ],
+      "status": "runtime-frame",
+      "note": "运行时取头部区域，避开右下角收藏控件；原 PNG 不改写",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "laoda-shush",
+      "characterId": "laoda",
+      "label": "牢大 · 手势",
+      "uploadIndex": 4,
+      "path": "assets/characters/laoda-shush-source.png",
+      "sourceRect": [
+        290,
+        0,
+        760,
+        1160
+      ],
+      "status": "runtime-frame",
+      "note": "运行时取景保留手势，排除右侧截图控件；原 PNG 不改写",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "kunkun-cartoon",
+      "characterId": "kunkun",
+      "label": "坤坤 · 卡通",
+      "uploadIndex": 5,
+      "path": "assets/characters/kunkun-cartoon-clean.png",
+      "status": "ai-edited",
+      "note": "imagegen 清理社交界面，生成编辑版本",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "kunkun-portrait",
+      "characterId": "kunkun",
+      "label": "坤坤 · 人像",
+      "uploadIndex": 6,
+      "path": "assets/characters/kunkun-portrait.png",
+      "status": "ready",
+      "note": "用户原图",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "lebang-face",
+      "characterId": "lebang",
+      "label": "乐邦 · 表情",
+      "uploadIndex": 7,
+      "path": "assets/characters/lebang-face-clean-v2.png",
+      "status": "web-alternative",
+      "note": "同款表情的无播放按钮透明版本，非上传原图的修复输出",
+      "sourceUrl": "https://www.pngfind.com/mpng/hxTTRo_lebron-funny-face-transparent-background-lebron-james-face/",
+      "downloadUrl": "https://www.pngfind.com/pngs/b/42-423120_meme-face-png.png",
+      "sourceLicense": "Source page: Personal Use Only",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "lebang-sunflower",
+      "characterId": "lebang",
+      "label": "乐邦 · 向日葵",
+      "uploadIndex": 8,
+      "path": "assets/characters/lebang-sunflower-source.png",
+      "sourceRect": [0, 0, 950, 947],
+      "sourceSize": [1081, 957],
+      "status": "runtime-frame",
+      "enabled": true,
+      "note": "用户指定乐邦二阶段；运行时取原图脸部与花瓣区域，排除右侧社交控件和底部横线。原 PNG 字节保留，未生成或导出清理图",
+      "role": "character"
+    },
+    {
+      "id": "xujiayin-fan",
+      "characterId": "xujiayin",
+      "label": "许家印 · 持扇",
+      "uploadIndex": 9,
+      "path": "assets/characters/xujiayin-fan.png",
+      "status": "ready-low-resolution",
+      "note": "按用户映射；333×474，适合小尺寸使用",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "mabaoguo",
+      "characterId": "mabaoguo",
+      "label": "马保国 · 补充照片",
+      "path": "assets/characters/mabaoguo-reference.jpg",
+      "sourceRect": [
+        170,
+        60,
+        330,
+        425
+      ],
+      "status": "photo-reference",
+      "note": "已补到照片；仍有灰色摄影背景，未声称完成透明抠图",
+      "sourceUrl": "https://www.sohu.com/a/147893724_473724",
+      "downloadUrl": "https://5b0988e595225.cdn.sohucs.com/q_70%2Cc_zoom%2Cw_640/images/20170611/8b88c481d5e645828f4619e39eb02a4d.jpg",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "xiangchanana-phase1",
+      "characterId": "xiangchanana",
+      "label": "香茶娜娜 · 一阶段",
+      "path": "assets/characters/xiangchanana-phase1.png",
+      "sourceRect": [135, 60, 730, 930],
+      "sourceSize": [891, 1053],
+      "status": "runtime-frame",
+      "note": "用户指定第一张，一阶段运行时取人物区域；保留原图浅色背景，不改写 PNG",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "xiangchanana-phase2",
+      "characterId": "xiangchanana",
+      "label": "香茶娜娜 · 二阶段横冲直撞",
+      "path": "assets/characters/xiangchanana-phase2.png",
+      "sourceSize": [1131, 1310],
+      "status": "ready",
+      "note": "用户指定第二张，保留完整造型与原有透明背景；半血后切换",
+      "role": "character",
+      "enabled": true
+    },
+    {
+      "id": "keyboard",
+      "label": "键盘连射",
+      "role": "item",
+      "path": "assets/items/keyboard.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "sprite-soda",
+      "label": "雪碧喷射",
+      "role": "item",
+      "path": "assets/items/sprite-soda.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "icecream",
+      "label": "巧乐兹冰棍",
+      "role": "item",
+      "path": "assets/items/icecream.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "keys",
+      "label": "交房钥匙串",
+      "role": "item",
+      "path": "assets/items/keys.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "slipper",
+      "label": "偷袭拖鞋",
+      "role": "item",
+      "path": "assets/items/slipper.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "hoop",
+      "label": "篮筐反弹器",
+      "role": "item",
+      "path": "assets/items/hoop.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "rhythm-basketball",
+      "label": "节拍篮球",
+      "role": "item",
+      "path": "assets/items/rhythm-basketball.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "crown-basketball",
+      "label": "皇冠回旋球",
+      "role": "item",
+      "path": "assets/items/crown-basketball.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "ice-soda-storm",
+      "label": "冰汽水风暴",
+      "role": "item",
+      "path": "assets/items/ice-soda-storm.png",
+      "status": "generated",
+      "enabled": true
+    },
+    {
+      "id": "jiangjieshi",
+      "label": "讲解师",
+      "role": "character",
+      "path": "assets/characters/jiangjieshi.png",
+      "status": "user-provided",
+      "enabled": true
+    },
+    {
+      "id": "lecture-stone",
+      "label": "讲解石",
+      "role": "enemy-prop",
+      "path": "assets/enemies/lecture-stone.png",
+      "status": "user-provided",
+      "enabled": true
+    },
+    {
+      "id": "laoda-helicopter",
+      "label": "牢大直升机",
+      "role": "enemy-prop",
+      "path": "assets/enemies/laoda-helicopter.png",
+      "status": "generated",
+      "enabled": true
+    }
+  ]
+}
